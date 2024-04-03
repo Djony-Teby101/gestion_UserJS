@@ -1,0 +1,64 @@
+html,body{
+    
+    background-color: #ada6a631;
+}
+form {
+    background-color: #252525;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  form button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #050138;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+  }
+  input {
+    margin: 3px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  #AllUsers {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #3f3e3e63;
+  }
+  #AllUsers h3 {
+    color: white;
+    font-family: Verdana, sans-serif;
+  }
+  #AllUsers div {
+    margin-bottom: 10px;
+  }
+  #AllUsers div input {
+    margin-right: 5px;
+  }
+  
+
+  .Supprimer{
+    background-color: rgba(255, 0, 0, 0.482);
+  }
+  .Modifier{
+    background-color: rgba(111, 255, 0, 0.427);
+  }
+  .Supprimer:hover{
+    background-color: rgba(255, 0, 0, 0.782);
+  }
+
+  .Modifier:hover{
+    background-color: rgba(111, 255, 0, 0.822);
+  }
